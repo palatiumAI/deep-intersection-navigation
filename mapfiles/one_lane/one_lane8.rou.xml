@@ -1,0 +1,55 @@
+<routes>
+            <vType accel="1.0" decel="5.0" id="Car" length="4.0" maxSpeed="20.0" sigma="0.0" departSpeed="13.89"/>
+    
+            <route id="n2s" edges="gneE2 -gneE3" />
+            <route id="s2n" edges="gneE3 -gneE2" />
+            <route id="w2e" edges="gneE0 -gneE1" />
+    
+            
+    <vehicle id="right_0" type="Car" route="n2s" depart="3" />
+    <vehicle id="right_1" type="Car" route="n2s" depart="5" />
+    <vehicle id="left_2" type="Car" route="s2n" depart="6" />
+    <vehicle id="right_3" type="Car" route="n2s" depart="7" />
+    <vehicle id="left_4" type="Car" route="s2n" depart="8" />
+    <vehicle id="right_5" type="Car" route="n2s" depart="9" />
+    <vehicle id="left_6" type="Car" route="s2n" depart="11" />
+    <vehicle id="right_7" type="Car" route="n2s" depart="14" />
+    <vehicle id="ego" type="Car" route="w2e" depart="15" departSpeed="13.89"/>
+    <vehicle id="right_9" type="Car" route="n2s" depart="23" />
+    <vehicle id="left_10" type="Car" route="s2n" depart="28" />
+    <vehicle id="right_11" type="Car" route="n2s" depart="29" />
+    <vehicle id="right_12" type="Car" route="n2s" depart="31" />
+    <vehicle id="left_13" type="Car" route="s2n" depart="37" />
+    <vehicle id="left_14" type="Car" route="s2n" depart="55" />
+    <vehicle id="left_15" type="Car" route="s2n" depart="61" />
+    <vehicle id="right_16" type="Car" route="n2s" depart="65" />
+    <vehicle id="left_17" type="Car" route="s2n" depart="69" />
+    <vehicle id="left_18" type="Car" route="s2n" depart="71" />
+    <vehicle id="right_19" type="Car" route="n2s" depart="92" />
+    <vehicle id="right_20" type="Car" route="n2s" depart="93" />
+    <vehicle id="right_21" type="Car" route="n2s" depart="95" />
+    <vehicle id="left_22" type="Car" route="s2n" depart="102" />
+    <vehicle id="right_23" type="Car" route="n2s" depart="104" />
+    <vehicle id="right_24" type="Car" route="n2s" depart="105" />
+    <vehicle id="left_25" type="Car" route="s2n" depart="105" />
+    <vehicle id="left_26" type="Car" route="s2n" depart="120" />
+    <vehicle id="left_27" type="Car" route="s2n" depart="124" />
+    <vehicle id="left_28" type="Car" route="s2n" depart="134" />
+    <vehicle id="right_29" type="Car" route="n2s" depart="138" />
+    <vehicle id="right_30" type="Car" route="n2s" depart="143" />
+    <vehicle id="left_31" type="Car" route="s2n" depart="146" />
+    <vehicle id="right_32" type="Car" route="n2s" depart="150" />
+    <vehicle id="left_33" type="Car" route="s2n" depart="150" />
+    <vehicle id="right_34" type="Car" route="n2s" depart="154" />
+    <vehicle id="right_35" type="Car" route="n2s" depart="156" />
+    <vehicle id="left_36" type="Car" route="s2n" depart="161" />
+    <vehicle id="left_37" type="Car" route="s2n" depart="162" />
+    <vehicle id="left_38" type="Car" route="s2n" depart="167" />
+    <vehicle id="right_39" type="Car" route="n2s" depart="176" />
+    <vehicle id="left_40" type="Car" route="s2n" depart="178" />
+    <vehicle id="right_41" type="Car" route="n2s" depart="181" />
+    <vehicle id="right_42" type="Car" route="n2s" depart="188" />
+    <vehicle id="left_43" type="Car" route="s2n" depart="190" />
+    <vehicle id="left_44" type="Car" route="s2n" depart="192" />
+    <vehicle id="left_45" type="Car" route="s2n" depart="193" />
+</routes>

@@ -1,0 +1,102 @@
+<routes>
+            <vType accel="1.0" decel="5.0" id="Car" length="4.0" maxSpeed="20.0" sigma="0.0" departSpeed="13.89"/>
+
+            <route id="n2s" edges="gneE2 -gneE3" />
+            <route id="s2n" edges="gneE3 -gneE2" />
+            <route id="w2e" edges="gneE0 -gneE1" />
+            <route id="w2n" edges="gneE0 -gneE2" />
+
+            
+    <vehicle id="right_0" type="Car" route="n2s" depart="2"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_1" type="Car" route="s2n" depart="3"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_2" type="Car" route="n2s" depart="6"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_3" type="Car" route="n2s" depart="6"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_4" type="Car" route="s2n" depart="6"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_5" type="Car" route="s2n" depart="10"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_6" type="Car" route="s2n" depart="10"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_7" type="Car" route="n2s" depart="12"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="ego" type="Car" route="w2n" depart="15" departSpeed="13.89"/>
+    <vehicle id="right_9" type="Car" route="n2s" depart="17"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_10" type="Car" route="n2s" depart="18"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_11" type="Car" route="s2n" depart="18"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_12" type="Car" route="s2n" depart="18"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_13" type="Car" route="n2s" depart="21"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_14" type="Car" route="n2s" depart="29"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_15" type="Car" route="s2n" depart="34"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_16" type="Car" route="s2n" depart="38"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_17" type="Car" route="s2n" depart="40"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_18" type="Car" route="n2s" depart="41"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_19" type="Car" route="s2n" depart="42"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_20" type="Car" route="s2n" depart="44"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_21" type="Car" route="n2s" depart="50"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_22" type="Car" route="n2s" depart="52"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_23" type="Car" route="s2n" depart="53"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_24" type="Car" route="s2n" depart="54"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_25" type="Car" route="s2n" depart="56"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_26" type="Car" route="s2n" depart="58"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_27" type="Car" route="s2n" depart="60"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_28" type="Car" route="n2s" depart="62"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_29" type="Car" route="s2n" depart="62"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_30" type="Car" route="n2s" depart="66"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_31" type="Car" route="s2n" depart="66"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_32" type="Car" route="s2n" depart="67"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_33" type="Car" route="s2n" depart="68"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_34" type="Car" route="s2n" depart="70"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_35" type="Car" route="n2s" depart="72"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_36" type="Car" route="n2s" depart="73"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_37" type="Car" route="n2s" depart="76"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_38" type="Car" route="s2n" depart="79"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_39" type="Car" route="s2n" depart="81"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_40" type="Car" route="n2s" depart="82"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_41" type="Car" route="n2s" depart="83"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_42" type="Car" route="n2s" depart="83"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_43" type="Car" route="n2s" depart="84"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_44" type="Car" route="n2s" depart="87"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_45" type="Car" route="n2s" depart="90"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_46" type="Car" route="n2s" depart="91"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_47" type="Car" route="s2n" depart="91"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_48" type="Car" route="n2s" depart="93"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_49" type="Car" route="n2s" depart="95"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_50" type="Car" route="s2n" depart="95"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_51" type="Car" route="n2s" depart="97"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_52" type="Car" route="n2s" depart="106"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_53" type="Car" route="s2n" depart="110"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_54" type="Car" route="n2s" depart="115"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_55" type="Car" route="s2n" depart="116"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_56" type="Car" route="s2n" depart="116"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_57" type="Car" route="s2n" depart="121"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_58" type="Car" route="s2n" depart="122"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_59" type="Car" route="n2s" depart="131"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_60" type="Car" route="n2s" depart="131"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_61" type="Car" route="s2n" depart="131"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_62" type="Car" route="n2s" depart="132"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_63" type="Car" route="n2s" depart="134"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_64" type="Car" route="n2s" depart="135"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_65" type="Car" route="n2s" depart="137"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_66" type="Car" route="n2s" depart="139"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_67" type="Car" route="s2n" depart="140"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_68" type="Car" route="n2s" depart="144"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_69" type="Car" route="s2n" depart="146"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_70" type="Car" route="n2s" depart="149"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_71" type="Car" route="s2n" depart="150"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_72" type="Car" route="s2n" depart="153"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_73" type="Car" route="s2n" depart="155"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_74" type="Car" route="n2s" depart="156"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_75" type="Car" route="n2s" depart="158"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_76" type="Car" route="s2n" depart="159"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_77" type="Car" route="s2n" depart="161"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_78" type="Car" route="s2n" depart="163"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_79" type="Car" route="n2s" depart="169"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_80" type="Car" route="n2s" depart="171"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_81" type="Car" route="n2s" depart="173"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_82" type="Car" route="n2s" depart="178"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_83" type="Car" route="n2s" depart="184"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_84" type="Car" route="s2n" depart="184"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_85" type="Car" route="s2n" depart="189"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_86" type="Car" route="s2n" depart="191"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_87" type="Car" route="s2n" depart="192"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_88" type="Car" route="s2n" depart="194"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_89" type="Car" route="n2s" depart="195"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="left_90" type="Car" route="s2n" depart="198"  departLane="free" departSpeed="13.89"/>
+    <vehicle id="right_91" type="Car" route="n2s" depart="199"  departLane="free" departSpeed="13.89"/>
+</routes>
